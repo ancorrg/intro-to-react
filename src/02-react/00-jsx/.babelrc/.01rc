@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "env"
+  ],
+  "plugins": [
+    "transform-runtime",
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "μReact.createElement"
+      }
+    ]
+  ],
+  "parserOpts": {
+    "plugins": [
+      "dynamicImport"
+    ]
+  }
+}
